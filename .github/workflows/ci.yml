@@ -45,4 +45,3 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run e2e
-

@@ -5,6 +5,7 @@ const HomeComponent = () => {
 
   useEffect(() => {
     FeedService.getFeed().then(m => console.log(m))
+    FeedService.getFeed().then(m => console.log(m))
   })
 
   return (
