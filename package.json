@@ -2,7 +2,13 @@
   "name": "@neighbor-net/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run-many --target=serve --all --parallel",
+    "build": "nx run-many --target=build --all --parallel",
+    "test": "nx run-many --target=test --all --parallel",
+    "lint": "nx run-many --target=lint --all --parallel",
+    "e2e": "nx run-many --target=e2e --all"
+  },
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.14.5",
